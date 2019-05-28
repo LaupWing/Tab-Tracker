@@ -17,8 +17,8 @@ app
 
 require('./routes')(app)
     
-    // Sequelize.sync() connect to any database that is connected to sequelize
-    // Create the tables that doesnt exist
+// Sequelize.sync() connect to any database that is connected to sequelize
+// Create the tables that doesnt exist
 sequelize.sync()
     .then(()=>{
         app.listen(config.port)
