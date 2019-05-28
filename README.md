@@ -4,10 +4,10 @@ A project that tracks your guitar tabs. This project is a tutorial i am followin
 ## Table of contents
 *   [Journal](#journal)
     *   [27 May Monday 2019](#27-may-monday-2019)
-        *   [Full Stack Web App using Vue.js and Express.js Part 1 Intro](#full-stack-web-app-using-vue.js-and-express.js-part-1-intro)
+        *   [Full Stack Web App using Vue.js and Express Part 1 Intro](#full-stack-web-app-using-vue.js-and-express-part-1-intro)
 ## Journal
 ### 27 May Monday 2019
-#### Full Stack Web App using Vue.js and Express.js Part 1 Intro
+#### Full Stack Web App using Vue.js and Express Part 1 Intro
 **What have i learned?**
 *   New way of making object methods/functions
     ```js
