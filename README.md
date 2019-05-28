@@ -38,5 +38,25 @@ A project that tracks your guitar tabs. This project is a tutorial i am followin
     ```js
     // API is a method improted from the code above
     Api().post('register', info)
-    ``` 
+    ```
+*   Importing Methods
+    You can import a whole file and use the filename as a reference to that exported file 
+    ```js
+    // File from Api.js
+    export default () =>{
+        return axios.create({
+            baseURL: `http://localhost:8081`
+        })
+    }
+    ```
+    ```js
+    // File from Auth.js
+    import Api from './Api'
+    export default {
+        register(info){
+            return Api().post('register', info)
+        }
+    }
+    ```
 ### 28 May Tuesday 2019
+#### Full Stack Web App using Vue.js & Express.js Part 2 Sequelize
