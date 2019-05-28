@@ -4,5 +4,39 @@ A project that tracks your guitar tabs. This project is a tutorial i am followin
 ## Table of contents
 
 ## Journal
-### 27 Monday May 2019
+### 27 May Monday 2019
 #### Full Stack Web App using Vue.js & Express.js Part 1 Intro
+**What have i learned?**
+*   New way of making object methods/functions
+    ```js
+    export default {
+        register(info){
+            return Api().post('register', info)
+        }
+    }
+    ```
+    is the same as
+    ```js
+    export default {
+        register: function(info){
+            return Api().post('register', info)
+        }
+    }
+    ```
+*   axios methods
+    *   Creating a new axios instance (Promise based HTTP client/the requests) by `axios.create`. This methods needs at least an baseURL value as a object.
+    ```js
+    export default () =>{
+        return axios.create({
+            baseURL: `http://localhost:8081`
+        })
+    }
+    ```
+    *   Trigger Axios post
+        *   First parameter in the post function is the path of the post
+        *   Second parameter is the data that is passed on to the post method 
+    ```js
+    // API is a method improted from the code above
+    Api().post('register', info)
+    ``` 
+### 28 May Tuesday 2019
