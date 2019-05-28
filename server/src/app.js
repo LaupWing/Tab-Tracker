@@ -11,9 +11,10 @@ app
     .use(morgan('combined'))
     .use(bodyParser.json())
     .use(cors())
-    .get('/status', (req,res)=>{
+    // Post method will be handled in the client in the folder services > Auth and API
+    .post('/register', (req,res)=>{
         res.send({
-            message: "hello world"
+            message: "Your user was registered! Have fun!"+ req.body.email
         })
     })
     .listen(process.env.PORT||port)
