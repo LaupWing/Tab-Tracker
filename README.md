@@ -2,10 +2,12 @@
 A project that tracks your guitar tabs. This project is a tutorial i am following from the youtubue channel freeCodeCamp.org. You can see the course i was following by clicking [here](https://www.youtube.com/watch?v=Fa4cRMaTDUI&t=183s). In this README file you can find what i have learned from this tutorial as well when i had learned this. This documantation mainly consist of a journal of what i have learned.
 
 ## Table of contents
-
+*   [Journal](#journal)
+    *   [27 May Monday 2019](#27-may-monday-2019)
+        *   [Full Stack Web App using Vue.js and Express.js Part 1 Intro](#full-stack-web-app-using-vue.js-and-express.js-part-1-intro)
 ## Journal
 ### 27 May Monday 2019
-#### Full Stack Web App using Vue.js & Express.js Part 1 Intro
+#### Full Stack Web App using Vue.js and Express.js Part 1 Intro
 **What have i learned?**
 *   New way of making object methods/functions
     ```js
